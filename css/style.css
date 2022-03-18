@@ -56,18 +56,17 @@ main {
     height: 90%;
     width: 90%;
     overflow: scroll;
-    background-color: white;
     overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
     align-content:flex-start;
+    
 }
 
 .container div {
     height: 20%;
     width: calc(100% / 7);
     border: solid black .1em;
-    
 }
 
 /* /main */
@@ -76,6 +75,12 @@ footer {
     background-color: blue;
     height: 50px;
     width: 100%;
+}
+
+img {
+height: 100%;
+width: 100%;
+    
 }
 
 
