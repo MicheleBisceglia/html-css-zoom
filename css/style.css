@@ -100,6 +100,28 @@ footer {
     width: 100%;
 }
 
+.footer-left {
+    align-items: flex-start;
+    display: flex;
+    flex-direction:row;
+    color: white;
+
+}
+
+.footer-center {
+    display:flex ;
+    flex-direction:row;
+    justify-content: center;
+    color: white;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: right;
+}
+
+
+
 
 
 
