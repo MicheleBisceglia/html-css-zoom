@@ -23,6 +23,7 @@ header {
 
 #right-nav button {
     background-color: #747678;
+    opacity: 80%;
     color: white;
     font-size: 80%;
     border-style: none;
@@ -67,9 +68,31 @@ main {
     height: 20%;
     width: calc(100% / 7);
     border: solid black .1em;
+    margin-bottom: .7%;
+    position: relative;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    }
+
+.name {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    color:white;
+    background-color: #747678;
+    opacity: 50%;
+    font-size: 60%;
+    height: 20%;
+    display: flex;
+    justify-content:center;
+    align-items:center
+
+}
 /* /main */
+
 /* footer */
 footer {
     background-color: blue;
@@ -77,10 +100,6 @@ footer {
     width: 100%;
 }
 
-img {
-height: 100%;
-width: 100%;
-    
-}
+
 
 
